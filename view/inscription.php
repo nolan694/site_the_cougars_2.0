@@ -13,8 +13,9 @@ if (isset($_POST["btn_connexion"])){
     <div class="form">
       <h1>Inscription</h1>
       <form action="inscription.php" method="post">
-        <input type="text" placeholder="Nom d'utilisateur" name="username" id = "username" required>
-        <input type="password" placeholder="Mot de passe" name="password" id = "password"required>
+        <input type="text" placeholder="Nom d'utilisateur" name="username" id = "username" >
+        <input type="mail" placeholder="adresse email" name="mail" id = "mail">
+        <input type="password" placeholder="Mot de passe" name="password" id = "password">
         <button id ="btn_inscription"type="submit" name="btn_inscription">s'inscrire</button>
         <button id ="btn_connexion"type="submit" name="btn_connexion">vous avez un compte ?</button>
       </form>
